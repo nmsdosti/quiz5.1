@@ -28,7 +28,7 @@ export default function LandingPage() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#46178F] to-[#7B2CBF] text-white flex flex-col">
+    <div className="min-h-screen bg-[#FF6952] text-black flex flex-col">
       <div className="fixed top-4 right-4 z-50">
         <UserMenu />
       </div>
@@ -45,13 +45,13 @@ export default function LandingPage() {
 
         <div className="flex flex-col sm:flex-row gap-6 w-full max-w-md justify-center">
           <Link to={user ? "/create" : "/signup"} className="w-full sm:w-auto">
-            <Button className="w-full rounded-full bg-white text-[#46178F] hover:bg-gray-100 text-lg px-8 py-6 h-auto">
+            <Button className="w-full rounded-full bg-[#2C5078] hover:bg-[#244260] text-white text-lg px-8 py-6 h-auto">
               Create a Quiz
             </Button>
           </Link>
 
           <Link to="/join" className="w-full sm:w-auto">
-            <Button className="w-full rounded-full bg-[#FF3355] hover:bg-[#e02e4d] text-white text-lg px-8 py-6 h-auto">
+            <Button className="w-full rounded-full bg-[#2C5078] hover:bg-[#244260] text-white text-lg px-8 py-6 h-auto">
               Join a Game
             </Button>
           </Link>
