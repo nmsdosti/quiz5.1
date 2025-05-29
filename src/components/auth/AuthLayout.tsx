@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function AuthLayout({ children }: { children: ReactNode }) {
   return (
-    <div className="min-h-screen bg-white text-black">
+    <div className="min-h-screen bg-[#FF6952] text-black">
       {/* Apple-style navigation */}
       <header className="fixed top-0 z-50 w-full bg-[rgba(255,255,255,0.8)] backdrop-blur-md border-b border-[#f5f5f7]/30">
         <div className="max-w-[980px] mx-auto flex h-12 items-center justify-between px-4">
